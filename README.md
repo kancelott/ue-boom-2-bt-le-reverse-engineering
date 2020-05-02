@@ -47,8 +47,9 @@ handle: 0x0002, char properties: 0x08, char value handle: 0x0003, uuid: c6d6dc0d
 ```
 # substitute an authorised BT MAC (YYYYYYYYYYYY)
 
-# turn on
+# get battery
 sudo gatttool -i hci0 -b C0:28:8D:XX:XX:XX --char-read -a 0x0014
+Characteristic value/descriptor: 5b
 ```
 
 handle: 0x0013, char properties: 0x02, char value handle: 0x0014, uuid: 00002a19-0000-1000-8000-00805f9b34fb
