@@ -81,7 +81,7 @@ Characteristic value/descriptor: 02 04 07 00
 pi@peach-pi:~ $ sudo gatttool -i hci0 -b C0:28:8D:XX:XX:XX --char-read -a 0x0010
 Characteristic value/descriptor: 31 37 33 35 4c 5a 30 37 4c 4d 4d 38 00
 
-# ???
+# NAME
 pi@peach-pi:~ $ sudo gatttool -i hci0 -b C0:28:8D:XX:XX:XX --char-read -a 0x0012
 Characteristic value/descriptor: 55 45 20 42 4f 4f 4d 20 32 00
 
